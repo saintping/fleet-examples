@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: redis
+        image: registry.x.com:5000/library/redis:latest
         resources:
           requests:
             cpu: 100m
